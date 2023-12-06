@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Hello World!!!
+  </h1>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "18rem",
+          }
+        }
+      >
+        <img
+          className="card-img-top"
+          src="https://avatars.githubusercontent.com/u/141053596?v=4"
+        />
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title h5"
+          >
+            Bhuvaneswari630
+          </div>
+          <p
+            className="card-text"
+          >
+            Highly motivated software developer with strong foundation in front-end technologies
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1>
+      Testing Playground
+    </h1>
+    <p>
+      Button is 
+      disabled
+    </p>
+    <button
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "blue",
+        }
+      }
+    >
+      Change button color to 
+      green
+    </button>
+    <input
+      defaultChecked={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;

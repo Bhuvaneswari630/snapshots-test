@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div>
+  <h1>
+    Testing Playground
+  </h1>
+  <p>
+    Button is 
+    disabled
+  </p>
+  <button
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+      }
+    }
+  >
+    Change button color to 
+    green
+  </button>
+  <input
+    defaultChecked={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
